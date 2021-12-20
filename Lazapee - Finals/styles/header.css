@@ -1,0 +1,46 @@
+nav{
+    background-color: #ffffff;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    border-bottom: #cacaca solid 2px;
+    font-size: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 15px;
+}
+
+nav li{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav a:hover{
+    color: #f95031;
+}
+
+nav a{
+    text-decoration: none;
+    color: #252f7b;
+}
+
+.accounts-action{
+    padding-right: 2%;
+    display: flex;
+    flex-direction: row-reverse;
+}
