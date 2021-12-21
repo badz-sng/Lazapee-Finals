@@ -176,7 +176,7 @@ td input[type=text],td input[type=password]{
     border: 1px solid rgb(88, 88, 88);
     border-radius: 5px;
 }
-input[type=button]{
+.save{
     background-color: #28a745;
     width: max-content;
     border-radius: 5px;
@@ -185,3 +185,95 @@ input[type=button]{
     color:#fff;
 }
     
+/* Responsiveness */
+@media only screen and (max-width: 805px){
+    .title{
+        margin-top: 15%;
+    }
+    section{
+        margin-bottom: 20%;
+    }
+    article{
+        flex-direction: column;
+    }
+    .individual{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 20% 2% 10% 2%;
+    }
+    .flash-sale,.home-living,.health-beauty,.groceries-pets,.fashion,.electronics,.baby-toys{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 600px;
+        background-color: #fff;
+    }
+    .flash-sale img,.home-living img,.health-beauty img,.groceries-pets img,.fashion img,.electronics img,.baby-toys img{
+        margin: 0;
+        padding: 0;
+        width:  250px;
+        height: 250px;
+        object-fit: cover;
+    }
+    .flash-sale a,.home-living a,.health-beauty a,.groceries-pets a,.fashion a,.electronics a,.baby-toys a{
+        text-decoration: none;
+        color: #333;
+        float: left;
+    }
+    .individual h1{
+        font-size: 30px;
+        font-weight: bold;
+        color: #333;
+        text-align: center;
+    }
+    .individual p{
+        font-size: 1em;
+        color: #333;
+        text-align: center;
+    }
+    .individual .item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        max-width: 600px;
+        background-color: #fff;
+    }
+    .item img{
+        width:  250px;
+        height: 250px;
+        object-fit: cover;
+    }
+    .item a{
+        text-decoration: none;
+        color: #333;
+        float: left;
+    }
+    .add{
+        background-color: #007bff;
+        border:none;
+        border-radius: 2px;
+        color: #fff;
+        padding: 3px;
+    }
+}
+@media only screen and (max-width: 660px){
+    .title{
+        margin-top: 40%;
+    }
+    section{
+        margin-bottom: 20%;
+    }
+    .individual{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 40% 2% 20% 2%;
+    }
+}
