@@ -37,12 +37,12 @@ article{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 5px;
     width: 100%;
     margin: 0 5% 10% 5%;
     padding: 20px 40px 20px 40px;
     background-color: #fff;
     border-radius: 5px;
+    gap: 20px;
 }
 article .flash-sale,.home-living,.health-beauty,.groceries-pets,.fashion,.electronics,.baby-toys{
     display: flex;
@@ -52,7 +52,6 @@ article .flash-sale,.home-living,.health-beauty,.groceries-pets,.fashion,.electr
     width: 100%;
     max-width: 600px;
     background-color: #fff;
-
 }
 .flash-sale img,.home-living img,.health-beauty img,.groceries-pets img,.fashion img,.electronics img,.baby-toys img{
     width:  250px;
