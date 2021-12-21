@@ -41,8 +41,7 @@ article{
     margin: 0 5% 10% 5%;
     padding: 20px 40px 20px 40px;
     background-color: #fff;
-    border-radius: 5px;
-    gap: 20px;
+    gap: 10px;
 }
 article .flash-sale,.home-living,.health-beauty,.groceries-pets,.fashion,.electronics,.baby-toys{
     display: flex;
@@ -54,6 +53,8 @@ article .flash-sale,.home-living,.health-beauty,.groceries-pets,.fashion,.electr
     background-color: #fff;
 }
 .flash-sale img,.home-living img,.health-beauty img,.groceries-pets img,.fashion img,.electronics img,.baby-toys img{
+    margin: 0;
+    padding: 0;
     width:  250px;
     height: 250px;
     object-fit: cover;
