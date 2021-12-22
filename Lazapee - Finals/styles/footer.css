@@ -21,12 +21,6 @@ footer ul{
     gap: 15px;
 }
 
-.foot-wrap{
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: center;
-    align-items: center;
-}
 footer li{
     display: flex;
     justify-content: space-around;
@@ -69,11 +63,5 @@ footer p{
     }
     footer p{
         text-align: center;
-    }
-    .foot-wrap{
-        display: flex;
-        flex-direction: row-reverse;
-        justify-content: center;
-        align-items: center;
     }
 }
